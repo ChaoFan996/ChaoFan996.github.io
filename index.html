@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>我的个人学术主页</title>
-    <style>
-      /* 垂直居中 */
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
 
-      /* 图片大小和边距，调整到适合您的需求 */
-      img {
-        width: 300px;
-        height: auto;
-        margin-bottom: 20px;
-      }
-    </style>
-  </head>
+<head>
+  <title>个人学术主页</title>
+  <style>
+    /* 整体格式居中 */
+    body {
+      text-align: center;
+    }
+    
+    /* 标题样式 */
+    h1 {
+      color: navy;
+      font-size: 36px;
+      margin-top: 50px;
+    }
+    
+    /* 图片样式 */
+    #profile-pic {
+      width: 200px;
+      border-radius: 50%;
+      margin-top: 30px;
+    }
+    
+    /* 栏目样式 */
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    
+    li {
+      margin-top: 10px;
+    }
+    
+    .publication {
+      color: gray;
+    }
+  </style>
+</head>
 
-  <body>
-    <!-- 这里是图片，请替换为您自己的图片地址 -->
-    <img src="https://via.placeholder.com/300x150.png" alt="占位图片"/>
+<body>
+  <!-- 最上面是一张图片 -->
+  <img src="your-profile-pic.jpg" alt="Profile Picture" id="profile-pic">
+  
+  <!-- 主标题 -->
+  <h1>你的名字</h1>
+  
+  <!-- 栏目：Publications -->
+  <h2>Publications</h2>
+  <ul>
+    <li class="publication">Title of your first publication<br>Journal or Conference Name, Year Published</li>
+    <li class="publication">Title of your second publication<br>Journal or Conference Name, Year Published</li>
+    <li class="publication">Title of your third publication<br>Journal or Conference Name, Year Published</li>
+  </ul>
+</body>
 
-    <h1>欢迎来到我的个人学术主页！</h1>
-
-    <!-- 这里放置您的正文内容 -->
-    <p>这里是您的文章摘要、介绍等等。</p>
-    <p>您也可以在这里放置您最新的论文、项目链接、联系方式等等。</p>
-  </body>
 </html>
